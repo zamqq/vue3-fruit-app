@@ -195,7 +195,6 @@
             </div>
           </li>
         </ul>
-        <!-- If no fruits are added in the basket -->
       </div>
     </div>
   </div>
