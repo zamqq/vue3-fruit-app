@@ -1,8 +1,8 @@
 
 <div align="center">
-    <img src="./README/fruitapp_screenshot.png" width="1280">
     <h3>FruitApp</h3>
     <p>Built with Vue3 and TailwindCSS.</p>
+    <img src="./README/fruitapp_screenshot.png" width="1280">
 </div>
 
 <br>
