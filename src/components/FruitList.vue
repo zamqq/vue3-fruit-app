@@ -28,7 +28,7 @@
         <p class="text-8xl">{{ fruit.img }}</p>
         <button
           @click="$refs.basket.addFruitToBasket(fruit)"
-          class="text-gray-800 border-gray-800 border px-2 rounded-lg absolute bottom-5 right-5 hover:bg-green-200 duration-150 font-medium"
+          class="text-gray-800 border-gray-800 border px-2 rounded-lg absolute bottom-5 right-5 hover:bg-blue-300 duration-150 font-medium"
         >
           +
         </button>
