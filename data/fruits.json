@@ -106,21 +106,6 @@
       }
     },
     {
-      "genus": "Psidium",
-      "name": "Guava",
-      "img": "🍎",
-      "id": 37,
-      "family": "Myrtaceae",
-      "order": "Myrtales",
-      "nutritions": {
-        "carbohydrates": 14,
-        "protein": 2.6,
-        "fat": 1,
-        "calories": 68,
-        "sugar": 9
-      }
-    },
-    {
       "genus": "Apteryx",
       "name": "Kiwi",
       "img": "🥝",
@@ -223,21 +208,6 @@
         "fat": 0.12,
         "calories": 50,
         "sugar": 9.85
-      }
-    },
-    {
-      "genus": "Rubus",
-      "name": "Raspberry",
-      "img": "🍎",
-      "id": 23,
-      "family": "Rosaceae",
-      "order": "Rosales",
-      "nutritions": {
-        "carbohydrates": 12,
-        "protein": 1.2,
-        "fat": 0.7,
-        "calories": 53,
-        "sugar": 4.4
       }
     },
     {
