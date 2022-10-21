@@ -24,17 +24,6 @@
         >
       </div>
     </div>
-
-    <!--
-    Dropdown menu, show/hide based on menu state.
-
-    Entering: "transition ease-out duration-100"
-      From: "transform opacity-0 scale-95"
-      To: "transform opacity-100 scale-100"
-    Leaving: "transition ease-in duration-75"
-      From: "transform opacity-100 scale-100"
-      To: "transform opacity-0 scale-95"
-  -->
     <div
       class="absolute right-5 z-10 w-56 md:w-80 p-4 origin-top-right rounded-md bg-white text-gray-800 dark:bg-slate-800 dark:text-white border dark:border-white"
       role="menu"
@@ -44,7 +33,6 @@
       :class="isBasketOpen ? 'block' : 'hidden'"
     >
       <div role="none" class="drop-shadow-lg">
-        <!-- If basket contains fruits -->
         <ul v-show="basket.length > 0">
           <template v-for="basketItem in basket" :key="basketItem.id">
             <li
@@ -203,6 +191,9 @@
 <script>
 export default {
   name: "Basket",
+  props: {
+    selected: Object,
+  },
   data() {
     return {
       fruits: [],

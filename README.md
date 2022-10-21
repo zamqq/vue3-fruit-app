@@ -1,4 +1,3 @@
-
 <div align="center">
     <h3>FruitApp</h3>
     <p>Built with Vue3 and TailwindCSS.</p>
@@ -33,20 +32,22 @@ Fruit app is a web application to track calories and nutritional data of fruits.
 
 - Node.js (Version 16.14 LTS is recommended)
 - npm
-    ```console
-    $ npm install npm@latest -g
-    ```
+  ```console
+  $ npm install npm@latest -g
+  ```
 - yarn
-    ```console
-    $ npm install --global yarn
-    ```
+  ```console
+  $ npm install --global yarn
+  ```
 
 ### Setup
 
 ```console
 $ git clone https://github.com/zamqq/vue3-fruit-app
 ```
+
 After you've cloned FruitApp, you have to go into the cloned directory and run
+
 ```console
 $ npm ci
 $ npm run dev
