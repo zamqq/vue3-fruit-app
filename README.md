@@ -43,12 +43,8 @@ Fruit app is a web application to track calories and nutritional data of fruits.
 ### Setup
 
 ```console
-$ git clone https://github.com/zamqq/vue3-fruit-app
-```
-
-After you've cloned FruitApp, you have to go into the cloned directory and run
-
-```console
+$ git clone https://github.com/zamqq/vue3-fruit-app.git
+# after cd vue3-fruit-app
 $ npm ci
 $ npm run dev
 ```

@@ -9,13 +9,13 @@
     >
       <button
         type="button"
-        class="inline-flex w-full justify-center bg-clip-text hover:-translate-y-1 hover:scale-100 duration-300 text-5xl"
+        class="inline-flex w-full justify-center bg-clip-text hover:-translate-y-1 hover:scale-100 duration-300"
         id="menu-button"
         aria-expanded="true"
         aria-haspopup="true"
         @click="!isBasketOpen"
       >
-        🧺
+        <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f9fa.png" class="w-16">
       </button>
       <div class="bg-blue-300">
         <span
